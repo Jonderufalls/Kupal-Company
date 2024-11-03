@@ -47,30 +47,7 @@
         <span onclick="closeModal()" style="position: absolute; top: 20px; right: 30px; font-size: 30px; color: white; cursor: pointer;">&times;</span>
         <img id="modalImage" src="" style="max-width: 80%; max-height: 80%; border-radius: 10px;">
     </div>
-
-    <footer class="bg-dark py-3">
-        <div class="d-flex justify-content-between align-items-center" style="margin-inline: 2rem;">
-            <!-- Left: Images -->
-            <div class="d-flex align-items-center">
-                <a href="https://bipsu.edu.ph/" target="_blank"><img src="../img/Bipsu_new.png" alt="Image 1" class="me-2" style="width: 75px; border-radius: 50%;"></a>
-                <a href="https://web.facebook.com/bipsustcs/" target="_blank"><img src="../img/stcs-logo.jpg" alt="Image 2" class="me-2" style="width: 65px; border-radius: 50%;"></a>
-            </div>
-            <!-- Center: Text -->
-            <div class="text-center text-light">
-                <p class="mb-0">@2024 Kupal Company. All Rights Reserved.</p>
-            </div>
-            <!-- Right: Developers List -->
-            <div class="text-start text-light">
-                <h5>Developers:</h5>
-                <a href="https://web.facebook.com/johndel.talon.720" target="_blank"><p class="mb-0">Johndel Talon</p></a>
-                <a href="https://web.facebook.com/sierge.macabacyao.3" target="_blank"><p class="mb-0">Sierge Fred Macabacyao</p></a>
-                <a href="https://web.facebook.com/rainier.reli.9" target="_blank"><p class="mb-0">Rainier Reli</p></a>
-                <a href="https://web.facebook.com/febie.febiegelizon" target="_blank"><p class="mb-0">Febie Gelizon</p></a>
-                <a href="https://web.facebook.com/michaelz.jornalez" target="_blank"><p class="mb-0">Michael Jornales</p></a>
-            </div>
-        </div>
-    </footer>
-
+    
     <!-- JavaScript to Open and Close Modal -->
     <script>
         function openModal(imageSrc) {
@@ -83,4 +60,32 @@
         }
     </script>
 </body>
+<footer class="bg-dark py-3">
+    <div class="d-flex justify-content-between align-items-center" style="margin-inline: 2rem;">
+        <!-- Left: Images - Stack vertically on small screens -->
+        <div class="d-flex flex-column flex-md-row align-items-center">
+            <a href="https://bipsu.edu.ph/" target="_blank" class="mb-2 mb-md-0 me-md-2">
+                <img src="../img/Bipsu_new.png" alt="Image 1" style="width: 75px; border-radius: 50%;">
+            </a>
+            <a href="https://web.facebook.com/bipsustcs/" target="_blank">
+                <img src="../img/stcs-logo.jpg" alt="Image 2" style="width: 65px; border-radius: 50%;">
+            </a>
+        </div>
+        
+        <!-- Center: Text -->
+        <div class="text-center text-light">
+            <p class="mb-0">@2024 Kupal Company. All Rights Reserved.</p>
+        </div>
+        
+        <!-- Right: Developers List -->
+        <div class="text-start text-light">
+            <h5>Developers:</h5>
+            <a href="https://web.facebook.com/johndel.talon.720" target="_blank"><p class="mb-0">Johndel Talon</p></a>
+            <a href="https://web.facebook.com/sierge.macabacyao.3" target="_blank"><p class="mb-0">Sierge Fred Macabacyao</p></a>
+            <a href="https://web.facebook.com/rainier.reli.9" target="_blank"><p class="mb-0">Rainier Reli</p></a>
+            <a href="https://web.facebook.com/febie.febiegelizon" target="_blank"><p class="mb-0">Febie Gelizon</p></a>
+            <a href="https://web.facebook.com/michaelz.jornalez" target="_blank"><p class="mb-0">Micheal Jornales</p></a>
+        </div>
+    </div>
+</footer>
 </html>
